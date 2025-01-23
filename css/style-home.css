@@ -5,10 +5,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
-    background-color: lightpink;
-}
-
 .middle {
     display: flex;
     justify-content: center;
@@ -26,7 +22,7 @@ body {
     padding: 20px;
     text-align: center;
     height: 45%;
-    background-color: #FFFFF0;
+    background-color: #FFFAFA;
 }
 
 h1 {
