@@ -17,21 +17,21 @@ body {
 }
 
 .card {
-    border-left: 5px solid red;
-    border-right: 5px solid red;
-    border-top: 5px solid red;
-    border-bottom: 5px solid red;
-    width: 200px;
+    border-left: 3px solid red;
+    border-right: 3px solid red;
+    border-top: 3px solid red;
+    border-bottom: 3px solid red;
+    width: 300px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
     text-align: center;
-    height: 50%;
+    height: 45%;
     background-color: #FFFFF0;
 }
 
 h1 {
     margin-bottom: 20px;
-    margin-top: 75px;
+    margin-top: 90px;
 }
 
 ul {
