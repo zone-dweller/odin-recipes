@@ -1,6 +1,7 @@
 # odin-recipes  
-The project just uses HTML.  
+This project uses simple HTML and CSS.  
   
   
 This project is going to be a simple recipe website.  
-In this project i will be demonstrating my skills in HTML.  
+And in it i will demonstrate the skills that i learned  
+on the TOP Foundations course.  
