@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -9,25 +15,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
 }
 
 .card {
-    border-left: 3px solid red;
-    border-right: 3px solid red;
-    border-top: 3px solid red;
-    border-bottom: 3px solid red;
     width: 300px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    text-align: center;
-    height: 45%;
+    height: 200px;
+    padding: 10px 12px;
     background-color: #FFFAFA;
+    text-align: center;
 }
 
-h1 {
-    margin-bottom: 20px;
-    margin-top: 90px;
+.card ul {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card.border {
+    border: 2px solid darkred;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background: #c2a3d1;
 }
 
 ul {

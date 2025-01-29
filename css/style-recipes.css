@@ -1,10 +1,16 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 * {
     line-height: 1.5;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
-    background-color: #FFFAFA;
+    background-color: pink;
 }
 
 .img-center {
@@ -13,19 +19,28 @@ body {
     margin-right: auto;
 }
 
-.center {
-    display: block;
-    text-align: center;
-}
-
 ul,
 ol {
     list-style: none;
 }
 
-a {
-    display: block;
+.card a {
     text-decoration: none;
+    color: white;
+    background-color: orange;
+    margin: 20px;
+    padding: 10px 12px;
+}
+
+.card {
+    width: 490px;
     text-align: center;
-    color: deepskyblue;
+    background-color: #FFFAFA;
+    margin: 20px auto;
+    padding: 50px;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, .5);
+}
+
+.card.border {
+    border: 2px solid darkred;
 }
