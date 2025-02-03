@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recipes</title>
 
     <link rel="stylesheet" href="./css/style-home.css">
-    
+
     <style>
         h1 span {
             color: gold
+        }
+
+        a span {
+            color: white;
+            background-color: orange;
+            padding: 10px 12px;
         }
     </style>
 </head>
@@ -18,12 +25,36 @@
     <div class="middle">
         <div class="card border">
             <h1 style="color: gray;"><span>Odin</span> Recipes</h1>
-            <ul>
-                <li><a href="./recipes/baked-ziti.html">Baked Ziti</a></li>
-                <li><a href="./recipes/zippy-shepherds-pie.html">Zippy Shepherd's Pie</a></li>
-                <li><a href="./recipes/angelas-awesome-enchiladas.html">Angela's Awesome Enchiladas</a></li>
-            </ul>
+            <div style="margin-top: 70px;">
+                <ul>
+                    <li>
+                        <div class="container-recipe">
+                            <a href="./recipes/baked-ziti.html">
+                                <img src="./img/baked-ziti-pic.jpg" alt="Image of a Baked Ziti" width="200"> <br>
+                                <span>Baked Ziti</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container-recipe">
+                            <a href="./recipes/zippy-shepherds-pie.html">
+                                <img src="./img/zippy-pic.jpg" alt="Image of a Zippy Shepherd's Pie" width="200"> <br>
+                                <span>Zippy Shepherd's Pie</span>
+                            </a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="container-recipe">
+                            <a href="./recipes/angelas-awesome-enchiladas.html">
+                                <img src="./img/enchiladas-pic.jpg" alt="Image of an Awesome Enchilada" width="200"> <br>
+                                <span>Angela's Awesome Enchiladas</span>
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </body>
+
 </html>
