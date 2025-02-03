@@ -19,8 +19,8 @@
 }
 
 .card {
-    width: 900px;
-    height: 500px;
+    width: auto;
+    height: auto;
     padding: 10px 12px;
     background-color: #FFFAFA;
     text-align: center;
